@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js",
+    "start": "node bot.js"
+  },
+  "author": "test",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cleverbot-node": "^0.3.11",
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.0.2",
+    "ytdl-core": "^0.26.3"
+  }
+}
