@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setColor(0x00AE86)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .setDescription(' **Yapımcı: Kerem Sönmez(Quadria)** \n\n**BOTU EKLEMEK İÇİN LİNK:**\n\nhttps://discordapp.com/oauth2/authorize?client_id=503663227498921994&scope=bot&permissions=8 \n\n**:copyright: 2018-2019 BDAL**');
+    .setDescription(' **Yapımcı: Kerem Sönmez(Quadria)** \n\n**:copyright: 2018-2019 KS**');
     return message.author.sendEmbed(pingozel)
 };
 
